@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "anonapp",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authanonappb2ba1485",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

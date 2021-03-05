@@ -4,6 +4,10 @@ import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 import { RootStackParamList } from '../types';
 
+/*
+ * TODO: Work on showing proper error screen
+ */
+
 export default function NotFoundScreen({
   navigation,
 }: StackScreenProps<RootStackParamList, 'NotFound'>) {
